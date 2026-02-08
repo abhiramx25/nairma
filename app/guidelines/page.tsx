@@ -44,7 +44,7 @@ export default function GuidelinesPage() {
                     <li>Use real, recent photos</li>
                     <li>Provide accurate information about yourself and your family</li>
                     <li>Be honest about your intentions and expectations</li>
-                    <li>Don't impersonate others or create fake profiles</li>
+                    <li>Don&apos;t impersonate others or create fake profiles</li>
                   </ul>
                 </section>
 

@@ -64,7 +64,7 @@ export default function ContactPage() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 bg-maroon-100 text-maroon-700 px-4 py-2 rounded-full mb-6 font-medium">
                 <MessageCircle size={18} className="text-gold-600" />
-                <span>We're Here to Help</span>
+                <span>We&apos;re Here to Help</span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold text-maroon-800 mb-6 font-serif">
                 Get in Touch
@@ -252,7 +252,7 @@ export default function ContactPage() {
               Ready to Start Your Journey?
             </h2>
             <p className="text-xl mb-10 opacity-90 max-w-2xl mx-auto">
-              Don't wait! Connect with us on WhatsApp and begin finding your perfect match today.
+              Don&apos;t wait! Connect with us on WhatsApp and begin finding your perfect match today.
             </p>
             <a
               href={getWhatsAppLink(whatsappMessages.start)}

@@ -44,7 +44,7 @@ export default function Header() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-maroon-700 font-serif">NAIRmatchu</h1>
-              <p className="text-xs text-gray-500 -mt-1">Kerala's Trusted Matrimony</p>
+              <p className="text-xs text-gray-500 -mt-1">Kerala&apos;s Trusted Matrimony</p>
             </div>
           </Link>
 

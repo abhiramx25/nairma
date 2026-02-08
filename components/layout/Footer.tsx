@@ -34,7 +34,7 @@ export default function Footer() {
               </div>
               <div>
                 <h2 className="text-3xl font-bold font-serif">NAIRmatchu</h2>
-                <p className="text-maroon-200 text-sm">Kerala's Trusted Matrimony</p>
+                <p className="text-maroon-200 text-sm">Kerala&apos;s Trusted Matrimony</p>
               </div>
             </div>
             <p className="text-maroon-100 mb-6 leading-relaxed max-w-md">
@@ -105,7 +105,7 @@ export default function Footer() {
                 <MessageCircle size={20} />
               </a>
               <a 
-                href="mailto:hello@nairmatchu.com"
+                href="mailto:sreeraggabru086@gmail.com"
                 className="text-maroon-200 hover:text-white transition-colors"
               >
                 <Mail size={20} />

@@ -81,7 +81,7 @@ export default function PlansPage() {
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Begin your matrimony journey at no cost. Upgrade to unlock unlimited 
-                matches and premium features when you're ready to connect.
+                matches and premium features when you&apos;re ready to connect.
               </p>
             </div>
           </AnimatedSection>
@@ -314,7 +314,7 @@ export default function PlansPage() {
                   </h3>
                   <p className="text-gray-600">
                     Absolutely! Start with our free Explore plan to understand how NAIRmatchu works. 
-                    You can upgrade to AI Match+ anytime via WhatsApp when you're ready to unlock all features.
+                    You can upgrade to AI Match+ anytime via WhatsApp when you&apos;re ready to unlock all features.
                   </p>
                 </div>
 
@@ -323,7 +323,7 @@ export default function PlansPage() {
                     What happens after 3 months?
                   </h3>
                   <p className="text-gray-600">
-                    Your subscription will expire and you'll move to the free plan. You can renew 
+                    Your subscription will expire and you&apos;ll move to the free plan. You can renew 
                     anytime via WhatsApp to continue enjoying premium features.
                   </p>
                 </div>
@@ -333,7 +333,7 @@ export default function PlansPage() {
                     Can I cancel anytime?
                   </h3>
                   <p className="text-gray-600">
-                    Yes. While we don't offer refunds for unused time, you can choose not to renew. 
+                    Yes. While we don&apos;t offer refunds for unused time, you can choose not to renew. 
                     Your premium features will remain active until the end of your subscription period.
                   </p>
                 </div>
@@ -361,7 +361,7 @@ export default function PlansPage() {
               Ready to Find Your Perfect Match?
             </h2>
             <p className="text-xl mb-10 opacity-90 max-w-2xl mx-auto">
-              Start free today and upgrade when you're ready to connect
+              Start free today and upgrade when you&apos;re ready to connect
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

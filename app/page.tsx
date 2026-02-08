@@ -357,7 +357,7 @@ export default function HomePage() {
             <div className="text-center mb-16">
               <h2 className="section-heading">Choose Your Plan</h2>
               <p className="section-subheading">
-                Start free and upgrade when you're ready to connect
+              Start free and upgrade when you&apos;re ready to connect
               </p>
             </div>
 
@@ -525,7 +525,7 @@ export default function HomePage() {
                       ))}
                     </div>
                     <p className="text-gray-700 mb-6 leading-relaxed flex-1 italic">
-                      "{testimonial.text}"
+                      &quot;{testimonial.text}&quot;
                     </p>
                     <div className="border-t pt-4">
                       <p className="font-bold text-maroon-700">{testimonial.name}</p>

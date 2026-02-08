@@ -53,7 +53,7 @@ export default function AboutPage() {
                 Reimagining Matrimony for the Nair Community
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                NAIRmatchu is Kerala's first AI-powered matrimony platform built exclusively 
+                NAIRmatchu is Kerala&apos;s first AI-powered matrimony platform built exclusively 
                 for the Nair community, combining traditional values with modern technology 
                 to help you find your perfect life partner.
               </p>
@@ -161,7 +161,7 @@ export default function AboutPage() {
                       Community Trust
                     </h3>
                     <p className="text-gray-600">
-                      Members feel more comfortable knowing they're part of a trusted, 
+                      Members feel more comfortable knowing they&apos;re part of a trusted, 
                       close-knit community platform.
                     </p>
                   </div>
@@ -195,7 +195,7 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
                 <p className="text-center mb-8 text-xl">
-                  Our AI doesn't replace the human element in matrimony—it enhances it by 
+                  Our AI doesn&apos;t replace the human element in matrimony—it enhances it by 
                   helping you find the most compatible matches faster and more accurately.
                 </p>
 
@@ -288,16 +288,16 @@ export default function AboutPage() {
               <div className="space-y-6 text-lg opacity-90 leading-relaxed">
                 <p>
                   At NAIRmatchu, we understand that matrimony is one of the most important 
-                  decisions in life. That's why we've built our platform with trust, privacy, 
+                  decisions in life. That&apos;s why we&apos;ve built our platform with trust, privacy, 
                   and security as foundational pillars.
                 </p>
                 <p>
                   Every profile is manually verified. Your data is encrypted and never shared 
-                  without your explicit permission. Our WhatsApp-first approach means you're 
+                  without your explicit permission. Our WhatsApp-first approach means you&apos;re 
                   always in control of your conversations and connections.
                 </p>
                 <p>
-                  We're not just a platform—we're your partner in finding the right match, 
+                  We&apos;re not just a platform—we&apos;re your partner in finding the right match, 
                   with your best interests at heart every step of the way.
                 </p>
               </div>

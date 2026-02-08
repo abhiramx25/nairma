@@ -103,7 +103,7 @@ export default function HowItWorksPage() {
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 NAIRmatchu makes matrimony simple, intelligent, and secure. 
-                Here's exactly how it works in 4 easy steps.
+                Here&apos;s exactly how it works in 4 easy steps.
               </p>
             </div>
           </AnimatedSection>
@@ -251,7 +251,7 @@ export default function HowItWorksPage() {
                     Trust
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
-                    WhatsApp's verified business account badge ensures you're talking to the 
+                    WhatsApp&apos;s verified business account badge ensures you&apos;re talking to the 
                     real NAIRmatchu, not an imposter.
                   </p>
                 </div>
