@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-ivory-100 text-gray-900 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  p, span, div {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply bg-maroon-500 text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-maroon hover:bg-maroon-600 transition-all duration-300 hover:shadow-maroon hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-maroon-500 border-2 border-maroon-500 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-maroon-50 transition-all duration-300;
+  }
+
+  .btn-whatsapp {
+    @apply bg-whatsapp text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:bg-whatsapp-dark transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2;
+  }
+
+  .btn-outline {
+    @apply border-2 border-maroon-500 text-maroon-500 px-6 py-3 rounded-lg font-medium hover:bg-maroon-500 hover:text-white transition-all duration-300;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-soft p-8 hover:shadow-soft-lg transition-shadow duration-300;
+  }
+
+  .card-premium {
+    @apply bg-gradient-to-br from-maroon-500 to-maroon-600 text-white rounded-xl shadow-maroon p-8 relative overflow-hidden;
+  }
+
+  .section-heading {
+    @apply text-4xl md:text-5xl font-bold text-maroon-700 mb-4;
+  }
+
+  .section-subheading {
+    @apply text-xl md:text-2xl text-gray-600 mb-12;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-maroon-600 to-maroon-400 bg-clip-text text-transparent;
+  }
+
+  .kerala-pattern {
+    background-image: 
+      repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(212, 175, 55, 0.03) 10px, rgba(212, 175, 55, 0.03) 20px),
+      repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(139, 26, 26, 0.02) 10px, rgba(139, 26, 26, 0.02) 20px);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF8E7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8B1A1A;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6B0F0F;
+}
+
+/* Selection */
+::selection {
+  background-color: #8B1A1A;
+  color: white;
+}
