@@ -127,7 +127,7 @@ export default function AboutPage() {
             <div className="max-w-4xl mx-auto">
               <h2 className="section-heading text-center">Why Nair-Exclusive?</h2>
               <p className="section-subheading text-center">
-                Understanding our community's unique needs
+                Understanding our community&apos;s unique needs
               </p>
 
               <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
