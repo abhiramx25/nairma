@@ -1,14 +1,8 @@
 'use client';
 import { initiatePayment } from '@/lib/payment';
-import type { Metadata } from 'next';
 import { Check, X, MessageCircle, Award, Sparkles, TrendingUp, Zap } from 'lucide-react';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import { getWhatsAppLink, whatsappMessages } from '@/lib/whatsapp';
-
-export const metadata: Metadata = {
-  title: 'Subscription Plans - NAIRmatchu Pricing',
-  description: 'Choose the perfect plan for your matrimony journey. Start free or upgrade to AI Match+ for unlimited access and premium features.',
-};
 
 const comparisonFeatures = [
   {
